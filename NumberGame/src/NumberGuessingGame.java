@@ -1,7 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.EventObject;
 import java.util.Random;
 
 public class NumberGuessingGame extends JFrame implements ActionListener {
@@ -26,6 +25,9 @@ public class NumberGuessingGame extends JFrame implements ActionListener {
         int frameHeight = FRAME_HEIGHT;
         setSize(frameWidth,frameHeight);
         setResizable(false);
+
+        ImageIcon logo = new ImageIcon("logo.png");
+        setIconImage(logo.getImage());
 
         ImageIcon backgroundImage = new ImageIcon("bglabel.png");
         JLabel backgroundLabel = new JLabel(backgroundImage);
