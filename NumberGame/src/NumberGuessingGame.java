@@ -99,14 +99,18 @@ public class NumberGuessingGame extends JFrame implements ActionListener {
                     feedbackLabel.setText("Enter the number within 1 to 100.");
                 }
                 else if (userGuess == randomNumber) {
+                    feedbackLabel.setBounds(80,100,700,30);
                     feedbackLabel.setText("Congratulations! You guessed the correct Number");
                     attempts++;
                     score = (MAX_ATTEMPTS - attempts) * 10;
+                    attemptsLabel.setBounds(155,130,500,30);
                     attemptsLabel.setText("Your Score - " + score);
                 } else {
                     String feedback = userGuess > randomNumber ? "Your guess is too high" : "Your guess is too low";
+                    feedbackLabel.setBounds(135,100,700,30);
                     feedbackLabel.setText(feedback);
                     attempts++;
+                    attemptsLabel.setBounds(165,130,500,30);
                     attemptsLabel.setText("Attempts - " +attempts);
                 }
 
@@ -126,11 +130,13 @@ public class NumberGuessingGame extends JFrame implements ActionListener {
         ((JButton) e.getSource()).setEnabled(false);
     }
 
-    // It is used to reset the game to initial position
+    // It is used to reset the game to its initial position
     private void resetGame(){
         randomNumber = generateRandomNumber();
         attempts = 0;
+        feedbackLabel.setBounds(100,100,700,30);
         feedbackLabel.setText("");
+        attemptsLabel.setBounds(100,130,500,30);
         attemptsLabel.setText("[You've Only "+ MAX_ATTEMPTS +" Attempts to Guess]");
         numberField.setText("");
         numberField.setEnabled(true);
@@ -140,6 +146,6 @@ public class NumberGuessingGame extends JFrame implements ActionListener {
     // It is used to generate a random Number within the range of 0 to 100
     public static int generateRandomNumber() {
         Random randomNumber = new Random();
-        return randomNumber.nextInt(101);
+         return randomNumber.nextInt(101);
     }
 }
