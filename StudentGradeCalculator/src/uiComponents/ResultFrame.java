@@ -16,6 +16,7 @@ public class ResultFrame extends JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLayout(null);
+        setLocationRelativeTo(null);
 
         // Setting background image
         ImageIcon imageIcon = new ImageIcon("BackImg.jpg");

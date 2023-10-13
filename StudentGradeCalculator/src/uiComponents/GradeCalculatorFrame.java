@@ -39,6 +39,7 @@ public class GradeCalculatorFrame extends JFrame implements ActionListener {
         setSize(FRAME_WIDTH,FRAME_HEIGHT);
         setResizable(false);
         setTitle("Grade Calculator");
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Logo
