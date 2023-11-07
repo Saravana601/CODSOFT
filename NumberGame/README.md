@@ -41,10 +41,10 @@ To run the Number Guessing game, you need:
 5. Click the "Reset" button to start a new game.
 
 ## Screenshots
-![Game Screenshot](Images/UserInterface.png)
-![Game Screenshot](Images/Img-1.png)
-![Game Screenshot](Images/Img-2.png)
-![Game Screenshot](Images/Img-3.png)
+![Game Screenshot](https://i.imgur.com/Yb3dZWA.png)
+![Game Screenshot](https://i.imgur.com/5ioLLWk.png)
+![Game Screenshot](https://i.imgur.com/7TkAcbX.png)
+![Game Screenshot](https://i.imgur.com/m1uin8U.png)
 
 ## Contributing
 
