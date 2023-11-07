@@ -42,9 +42,9 @@ To run the Number Guessing game, you need:
 
 ## Screenshots
 ![Game Screenshot](Images/UserInterface.png)
-![Game Screenshot](Imgs/Img-1.png)
-![Game Screenshot](Imgs/Img-2.png)
-![Game Screenshot](Imgs/Img-3.png)
+![Game Screenshot](Images/Img-1.png)
+![Game Screenshot](Images/Img-2.png)
+![Game Screenshot](Images/Img-3.png)
 
 ## Contributing
 
